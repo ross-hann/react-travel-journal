@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    height: 55px;
+    top: 0px;
+    background: #F55A5A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav--logo {
+    width: 20px;
+    height: 20px;
+    color: white;
+}
+
+.nav--text {
+    color: white;
+    font-size: 15px;
+}
+
+.card{
+    display: flex;
+    width: 871px;
+    height: 168px;
+    margin: 85px;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.card--image {
+    width: 176px;
+    height: 188px;
+    border-radius: 9px;
+    margin-top: -70px;
+}
+
+.card--location--icon {
+    width: 10px;
+    height: 10px;
+}
+
+.card--details {
+    padding-left: 20px;
+    padding-top: 15px;
+    width: 871px;
+    height: 168px;
+    border-radius: 9px;
+    margin-top: -70px;
+}
+
+.card--location {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    letter-spacing: 0.17em;
+    color: #2B283A;
+}
+
+.card--googlemaps {
+    width: 106px;
+    height: 13px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    text-decoration-line: underline;
+    color: #918E9B;
+}
+
+.card--title {
+    margin-top: 10px;
+    width: 326px;
+    height: 33px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #2B283A;
+}
+
+.card--date {
+    width: 319px;
+    height: 11px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10.24px;
+    line-height: 12px;
+    color: #2B283A;
+}
+
+.card--desc {
+    width: 600px;
+    height: 60px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #2B283A;
+}
